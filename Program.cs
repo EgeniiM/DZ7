@@ -18,7 +18,7 @@ namespace DZ7
             Console.WriteLine("Здравствуйте!! Сколько у вас золота?");
             input = Console.ReadLine();
             gold = Convert.ToInt32(input);
-            Console.WriteLine("Кристал стоит 3 золотых, сколько хотите купить?");
+            Console.WriteLine($"Кристал стоит {crystalPrise} золотых, сколько хотите купить?");
             input = Console.ReadLine();
             crystals = Convert.ToInt32(input);
             gold -= crystals * crystalPrise;
